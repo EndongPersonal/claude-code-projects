@@ -44,6 +44,48 @@ sudo apt-get install verilator
 brew install verilator
 ```
 
+## External Report Integration
+
+Besides running Verilator/iverilog directly, this skill can read lint/check reports produced by **other EDA tools** and apply fixes based on those reports.
+
+### Supported Report Formats
+
+| Tool | Report Type | How to Parse |
+|---|---|---|
+| Spyglass | Lint report (.rpt) | Parse `Module/File/Line/Severity/Rule/Message` columns |
+| Design Compiler | Lint log | Parse `[Warning|Error]\s+at\s+<file>:<line>` patterns |
+| Vivado | Messages log | Parse `[<severity>\s+<code>]\s+<file>:<line>: <msg>` |
+| IUS/Xcelium | IRUN log | Parse `\w+:\s+<file>,\s*<line>:\s*<msg>` |
+| VCS | Lint log | Parse `Warning-\w+\s+at\s+<file>:<line>` |
+| Generic CSV/Text | Any structured report | Line-oriented parsing — extract file, line, severity, message |
+
+### How to Use
+
+User provides the report file path alongside the Verilog source:
+
+```
+fix lint in rtl/top.v using report spyglass_lint.rpt
+```
+
+Or simply:
+```
+fix lint with reports/lint_report.txt
+```
+
+### Report-Based Fix Workflow
+
+1. **Read the report** — identify all Error/Warning entries, extract file path, line number, rule code, and description
+2. **Cross-reference with source** — read each flagged file, locate the exact lines mentioned in the report
+3. **Apply fixes** — use the same fix rules as Verilator-based fixing (Step 4), but guided by the external report's rule descriptions
+4. **Verify** — if Verilator is available, run `--lint-only -Wall` as a sanity check after fixes; if not, at minimum re-read the modified code to confirm correctness
+
+### Priority Merging
+
+When both an external report AND Verilator output are available:
+- Deduplicate: if the same line/issue is flagged by both tools, fix once
+- Complementary: if one tool catches something the other missed, fix all unique issues
+- Conflict: if tools disagree (one says fix, other says it's fine), prefer the stricter interpretation and note the conflict for the user
+
 ## Workflow
 
 ### Step 1: Identify Target Files
@@ -123,6 +165,27 @@ Common lint fixes (apply in order of severity — Errors first, then Warnings):
 3. Preserve original logic and intent
 4. If a warning is intentional (e.g., unused port in a testbench), add `/* verilator lint_off <TYPE> */` pragma instead of removing
 5. Always maintain proper Verilog syntax after each fix
+
+### Logic Preservation Verification
+
+After all fixes are applied, **verify that the original circuit logic has not changed**:
+
+1. **Signal connectivity check** — ensure all input/output port connections remain identical
+2. **Assignment equivalence** — verify every `assign`, `always` block still produces the same outputs for the same inputs
+3. **No dead code introduction** — fixes should not make previously-driven signals undriven or vice versa
+4. **Bit-width consistency** — width changes (e.g., casts) must not truncate or extend meaningful bits in a way that alters behavior
+5. **Quick sanity method** — if the user has a simulation testbench, suggest running it post-fix:
+   ```bash
+   iverilog -o sim.vvp testbench.v top.v && vvp sim.vvp
+   ```
+   Compare output against pre-fix golden results.
+6. **Diff review** — always show a summary of what changed (line-level) so the user can visually confirm no logic drift:
+   ```bash
+   git diff <file>   # if git tracked
+   diff <original> <fixed>  # otherwise
+   ```
+
+**Hard rule**: If any fix risks altering functional behavior (e.g., changing operator precedence, modifying sensitivity list, reordering case branches with side effects), **flag it explicitly** and ask the user before applying. Safe fixes (adding casts, removing unused signals, adding default cases, pragma suppressions) can proceed automatically.
 
 ### Step 5: Re-run Lint Check
 
