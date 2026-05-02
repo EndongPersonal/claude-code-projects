@@ -1,515 +1,515 @@
-# 📈 Stock Market Investment Plan: Daily Returns Covering AI Token Costs
+# 📈 股市投资计划：以日内收益覆盖 AI Token 成本
 
-> **Core Objective**: Generate consistent daily trading profits sufficient to cover daily AI coding assistance token consumption costs, creating a self-sustaining AI-augmented development workflow.
-
----
-
-## 1. Daily Cost Baseline — How Much Do We Need to Earn?
-
-### 1.1 Token Consumption Estimation
-
-Based on typical heavy usage of AI coding assistants (Claude Code via DeepSeek API, QClaw sessions):
-
-| Activity | Est. Daily Sessions | Est. Tokens/Session | Est. Daily Cost |
-|----------|-------------------:|--------------------:|----------------:|
-| Code generation & debugging | 8–12 | ~15K input + 5K output | ¥25–40 |
-| Architecture & refactoring | 2–3 | ~20K input + 8K output | ¥12–18 |
-| Search, docs, misc queries | 5–8 | ~5K input + 2K output | ¥8–12 |
-| **Daily Total** | | | **¥45–70** |
-
-### 1.2 Target Daily Return
-
-| Metric | Conservative | Moderate | Aggressive |
-|--------|-------------:|----------:|-----------:|
-| Daily token cost | ¥50 | ¥60 | ¥70 |
-| + 20% buffer | ¥60 | ¥72 | ¥84 |
-| **Target daily profit** | **¥60** | **¥72** | **¥84** |
-| Rounding up | **¥70** | **¥80** | **¥90** |
-
-**Operating Target: ¥80/day net profit** (covers moderate cost with buffer)
+> **核心目标**：产生稳定的日内交易利润，足以覆盖每日 AI 编程助手 token 消耗成本，打造可持续的 AI 增强型开发工作流。
 
 ---
 
-## 2. Capital Requirements & Expected Returns
+## 1. 每日成本基线 —— 我们需要赚多少？
 
-### 2.1 Capital Sizing
+### 1.1 Token 消耗估算
 
-To generate ¥80/day with realistic daily returns:
+基于典型的 AI 编程助手重度使用情况（通过 DeepSeek API 使用 Claude Code，QClaw 会话）：
 
-| Strategy Type | Daily Return Target | Required Capital |
-|--------------|--------------------:|-----------------:|
-| Conservative (0.3%/day) | ¥80 | ¥26,700 |
-| Moderate (0.5%/day) | ¥80 | ¥16,000 |
-| Aggressive (0.8%/day) | ¥80 | ¥10,000 |
+| 活动 | 估算日均会话数 | 估算 Token/会话 | 估算日均成本 |
+|------|---------------:|----------------:|-------------:|
+| 代码生成与调试 | 8–12 | ~15K 输入 + 5K 输出 | ¥25–40 |
+| 架构设计与重构 | 2–3 | ~20K 输入 + 8K 输出 | ¥12–18 |
+| 搜索、文档、杂项查询 | 5–8 | ~5K 输入 + 2K 输出 | ¥8–12 |
+| **每日合计** | | | **¥45–70** |
 
-**Recommended Starting Capital: ¥20,000**
+### 1.2 目标日内收益
 
-- Targets ~0.4%/day = ¥80
-- Achievable with disciplined swing/day-trading on A-shares or HK stocks
-- Leaves room for drawdowns without catastrophic loss
+| 指标 | 保守 | 中等 | 激进 |
+|------|-----:|-----:|-----:|
+| 日均 token 成本 | ¥50 | ¥60 | ¥70 |
+| + 20% 缓冲 | ¥60 | ¥72 | ¥84 |
+| **目标日内利润** | **¥60** | **¥72** | **¥84** |
+| 向上取整 | **¥70** | **¥80** | **¥90** |
 
-### 2.2 Compounding Vision
+**运营目标：¥80/天净利润**（覆盖中等成本并含缓冲）
 
-| Month | Capital (5-day compounding @ 0.4%/day) | Monthly Profit |
-|-------|---------------------------------------:|---------------:|
+---
+
+## 2. 资金需求与预期收益
+
+### 2.1 资金规模设定
+
+要实现 ¥80/天的现实日内收益：
+
+| 策略类型 | 日内收益目标 | 所需资金 |
+|---------|-------------:|---------:|
+| 保守（0.3%/天） | ¥80 | ¥26,700 |
+| 中等（0.5%/天） | ¥80 | ¥16,000 |
+| 激进（0.8%/天） | ¥80 | ¥10,000 |
+
+**建议起始资金：¥20,000**
+
+- 目标约 0.4%/天 = ¥80
+- 通过 A 股或港股的波段/日内交易可实现
+- 为回撤留有余地，避免灾难性损失
+
+### 2.2 复利愿景
+
+| 月份 | 资金（按 0.4%/天复利，5 个交易日） | 月度利润 |
+|-----|----------------------------------:|---------:|
 | 1 | ¥20,000 → ¥20,404 | ¥404 |
 | 3 | ¥20,000 → ¥21,268 | ¥1,268 |
 | 6 | ¥20,000 → ¥22,618 | ¥2,618 |
 | 12 | ¥20,000 → ¥25,580 | ¥5,580 |
 
-> Compounding is aspirational — the real goal is consistency, not growth.
+> 复利是愿景 —— 真正的目标是稳定性，而非增长。
 
 ---
 
-## 3. Market Analysis Framework
+## 3. 市场分析框架
 
-### 3.1 Top-Down Analysis (Weekly, 30 min)
+### 3.1 自上而下分析（每周，30 分钟）
 
-1. **Macro Environment**
-   - PBoC interest rate policy & LPR movements
-   - CPI/PPI trends (inflation/deflation signals)
-   - RMB exchange rate (USD/CNH impact on capital flows)
-   - US Fed rate decisions & global risk sentiment
+1. **宏观环境**
+   - 央行利率政策与 LPR 走向
+   - CPI/PPI 趋势（通胀/通缩信号）
+   - 人民币汇率（美元/离岸人民币对资金流向的影响）
+   - 美联储利率决策与全球风险偏好
 
-2. **Market Breadth**
-   - Shanghai/Shenzhen advance-decline ratio (>1.5 = bullish)
-   - Volume ratio vs. 20-day average (>1.2 = momentum)
-   - New highs vs. new lows breadth
-   - Margin trading balance trends
+2. **市场广度**
+   - 沪深涨跌比（>1.5 = 看涨）
+   - 量比 vs. 20 日均线（>1.2 = 动能）
+   - 创新高 vs. 创新低广度
+   - 融资余额趋势
 
-3. **Sector Rotation**
-   - Track top 5 sectors by 5-day money flow
-   - Identify sectors with increasing institutional holdings
-   - Monitor policy-driven themes (AI, NEV, semiconductors, healthcare)
+3. **板块轮动**
+   - 追踪 5 日资金流向排名前 5 的板块
+   - 识别机构持仓增加的板块
+   - 监控政策驱动主题（AI、新能源汽车、半导体、医疗）
 
-### 3.2 Technical Analysis (Daily, 15 min)
+### 3.2 技术分析（每日，15 分钟）
 
-| Tool | Purpose | Signal |
-|------|---------|--------|
-| MA(5)/MA(20) crossover | Trend direction | Golden cross = buy, Death cross = sell |
-| MACD (12,26,9) | Momentum | Histogram flip = entry signal |
-| RSI (14) | Overbought/oversold | <30 oversold, >70 overbought |
-| Bollinger Bands | Volatility & range | Touch lower band + RSI<30 = buy |
-| Volume profile | Confirmation | Price move + volume = valid |
+| 工具 | 用途 | 信号 |
+|-----|------|------|
+| MA(5)/MA(20) 交叉 | 趋势方向 | 金叉 = 买入，死叉 = 卖出 |
+| MACD (12,26,9) | 动能 | 柱状图翻转 = 入场信号 |
+| RSI (14) | 超买/超卖 | <30 超卖，>70 超买 |
+| 布林带 | 波动率与区间 | 触及下轨 + RSI<30 = 买入 |
+| 成交量分布 | 确认 | 价格变动 + 成交量 = 有效 |
 
-### 3.3 News & Catalysts (Daily, 10 min)
+### 3.3 新闻与催化剂（每日，10 分钟）
 
-- Pre-market: Overnight US market, futures, major announcements
-- Intra-day: Real-time policy releases, earnings surprises
-- After-hours: Next-day preparation, global developments
-
----
-
-## 4. Stock Selection Criteria
-
-### 4.1 Universe Filter
-
-**Primary Market: A-Shares (Shanghai/Shenzhen)**
-
-| Filter | Criteria | Rationale |
-|--------|----------|-----------|
-| Market cap | ¥5B – ¥100B | Liquid enough, not too slow |
-| Daily volume | > ¥100M | Ensures entry/exit liquidity |
-| Price | ¥10 – ¥80 | Avoid penny stocks & high-price illiquidity |
-| ST status | No ST/*ST | Avoid delisting risk |
-| IPO age | > 6 months | Avoid IPO volatility |
-| Margin trading | Eligible | Allows flexibility |
-
-### 4.2 Scoring Model (100 points total)
-
-| Factor | Weight | Scoring |
-|--------|-------:|---------|
-| **Trend alignment** | 25 pts | MA5 > MA20 > MA60 = 25; partial alignment = 15; no alignment = 5 |
-| **Volume confirmation** | 20 pts | Volume > 1.5× avg on up days = 20; moderate = 12; weak = 5 |
-| **Sector momentum** | 20 pts | Top-3 sector = 20; top-5 = 14; neutral = 8 |
-| **Fundamental catalyst** | 15 pts | Earnings beat / policy tailwind = 15; neutral = 8; negative = 3 |
-| **Technical setup** | 10 pts | Breakout / bounce from support = 10; neutral = 5; breakdown = 2 |
-| **Risk/reward ratio** | 10 pts | R:R > 3:1 = 10; > 2:1 = 7; > 1:1 = 3 |
-
-**Entry threshold: Score ≥ 70/100**
-
-### 4.3 Watchlist Management
-
-- Maintain a **10–15 stock watchlist** updated weekly
-- Score each stock Sunday evening
-- Top 3–5 by score are actionable for the week
-- Remove stocks that score <50 for two consecutive weeks
+- 盘前：隔夜美股、期货、重大公告
+- 盘中：实时政策发布、业绩超预期
+- 盘后：次日准备、全球动态
 
 ---
 
-## 5. Risk Management Rules
+## 4. 选股标准
 
-### 5.1 Hard Rules (Never Break)
+### 4.1 股票池筛选
 
-| Rule | Limit | Consequence |
-|------|-------|-------------|
-| Max single position | 30% of capital | Automatic trim if exceeded |
-| Max daily loss | **¥200** (2.5× target) | **Stop trading for the day** |
-| Max weekly loss | **¥500** | Reduce position sizes by 50% next week |
-| Max drawdown from peak | 10% | Stop all trading, full review |
-| Stop-loss per trade | 2% of entry price | Non-negotiable, market order exit |
-| No overnight margin | 0% margin overnight | Close all leveraged positions by 14:50 |
+**主要市场：A 股（沪深）**
 
-### 5.2 Soft Rules (Use Judgment)
+| 筛选条件 | 标准 | 理由 |
+|---------|------|------|
+| 市值 | ¥50亿 – ¥1000亿 | 流动性充足，不过于迟缓 |
+| 日均成交额 | > ¥1亿 | 确保进出流动性 |
+| 股价 | ¥10 – ¥80 | 避免仙股与高价流动性不足 |
+| ST 状态 | 无 ST/*ST | 避免退市风险 |
+| 上市时间 | > 6 个月 | 避免 IPO 波动 |
+| 融资融券 | 符合条件 | 增加灵活性 |
 
-- Avoid trading in the first 15 minutes (9:30–9:45) — high volatility noise
-- Avoid trading in the last 10 minutes (14:50–15:00) unless closing positions
-- Skip trading on major policy announcement days if direction unclear
-- Reduce position size by 50% after 2 consecutive losing trades
-- Take a 30-minute break after 3 consecutive losing trades
+### 4.2 评分模型（总分 100 分）
 
-### 5.3 Loss Recovery Schedule
+| 因素 | 权重 | 评分标准 |
+|-----|-----:|---------|
+| **趋势一致性** | 25 分 | MA5 > MA20 > MA60 = 25；部分一致 = 15；不一致 = 5 |
+| **成交量确认** | 20 分 | 上涨日成交量 > 1.5 倍均值 = 20；中等 = 12；弱势 = 5 |
+| **板块动能** | 20 分 | 前 3 板块 = 20；前 5 = 14；中性 = 8 |
+| **基本面催化剂** | 15 分 | 业绩超预期/政策利好 = 15；中性 = 8；负面 = 3 |
+| **技术形态** | 10 分 | 突破/支撑位反弹 = 10；中性 = 5；破位 = 2 |
+| **风险回报比** | 10 分 | R:R > 3:1 = 10；> 2:1 = 7；> 1:1 = 3 |
 
-| Daily Loss | Next Day Action |
-|-----------:|:----------------|
-| < ¥100 | Normal trading |
-| ¥100–200 | Reduce size to 50%, target break-even first |
-| > ¥200 | No trading, review & reset |
-| 3 losing days in a row | Full day off, journal review |
+**入场门槛：得分 ≥ 70/100**
+
+### 4.3 观察名单管理
+
+- 维持 **10–15 只股票的观察名单**，每周更新
+- 每周日晚上评分
+- 得分最高的 3–5 只为本周操作标的
+- 连续两周得分 <50 的股票移出名单
 
 ---
 
-## 6. Position Sizing
+## 5. 风险管理规则
 
-### 6.1 Fixed Fractional Model
+### 5.1 硬性规则（绝不违反）
+
+| 规则 | 限制 | 后果 |
+|-----|------|------|
+| 单一持仓上限 | 资金的 30% | 超过自动减仓 |
+| 日内最大亏损 | **¥200**（目标的 2.5 倍） | **当日停止交易** |
+| 周最大亏损 | **¥500** | 下周仓位减半 |
+| 峰值最大回撤 | 10% | 停止所有交易，全面复盘 |
+| 单笔止损 | 入场价的 2% | 不可商量，市价单离场 |
+| 隔夜融资 | 0% 融资过夜 | 14:50 前平掉所有杠杆仓位 |
+
+### 5.2 软性规则（需判断）
+
+- 避免开盘前 15 分钟交易（9:30–9:45）—— 高波动噪音
+- 避免收盘前 10 分钟交易（14:50–15:00），除非平仓
+- 政策重大公告日若方向不明则不交易
+- 连续 2 笔亏损后将仓位减少 50%
+- 连续 3 笔亏损后休息 30 分钟
+
+### 5.3 亏损恢复计划
+
+| 日内亏损 | 次日行动 |
+|---------:|:--------|
+| < ¥100 | 正常交易 |
+| ¥100–200 | 仓位减至 50%，优先回本 |
+| > ¥200 | 不交易，复盘与重置 |
+| 连续 3 天亏损 | 全天休息，日志复盘 |
+
+---
+
+## 6. 仓位管理
+
+### 6.1 固定比例模型
 
 ```
-Position Size = (Account Risk per Trade) / (Entry Price × Stop-Loss %)
+仓位规模 = (单笔账户风险) / (入场价 × 止损比例)
 
-Where:
-  Account Risk per Trade = 1% of total capital = ¥200 (on ¥20,000)
-  Stop-Loss = 2% of entry price
+其中：
+  单笔账户风险 = 总资金的 1% = ¥200（以 ¥20,000 计）
+  止损 = 入场价的 2%
 
-Example:
-  Stock price = ¥40
-  Stop-Loss = 2% = ¥0.80
-  Account Risk = ¥200
-  Position Size = ¥200 / ¥0.80 = 250 shares
-  Position Value = 250 × ¥40 = ¥10,000 (50% of capital)
+示例：
+  股价 = ¥40
+  止损 = 2% = ¥0.80
+  账户风险 = ¥200
+  仓位规模 = ¥200 / ¥0.80 = 250 股
+  仓位价值 = 250 × ¥40 = ¥10,000（资金的 50%）
 ```
 
-### 6.2 Position Tier System
+### 6.2 仓位分级系统
 
-| Trade Quality | Score | Position Size | Capital Allocation |
-|--------------|:-----:|:-------------|:------------------|
-| A+ setup | 85+ | 25–30% | ¥5,000–6,000 |
-| A setup | 75–84 | 20–25% | ¥4,000–5,000 |
-| B+ setup | 70–74 | 15–20% | ¥3,000–4,000 |
-| Below threshold | <70 | **No trade** | ¥0 |
+| 交易质量 | 得分 | 仓位规模 | 资金配置 |
+|---------|:----:|:--------|:--------|
+| A+ 形态 | 85+ | 25–30% | ¥5,000–6,000 |
+| A 形态 | 75–84 | 20–25% | ¥4,000–5,000 |
+| B+ 形态 | 70–74 | 15–20% | ¥3,000–4,000 |
+| 低于门槛 | <70 | **不交易** | ¥0 |
 
-### 6.3 Scaling In/Out
+### 6.3 分批进出
 
-- **Scale In**: Enter 50% at signal, add 25% on pullback confirmation, final 25% on breakout
-- **Scale Out**: Exit 50% at 1R profit, move stop to breakeven, exit 25% at 2R, trail stop for final 25%
-
----
-
-## 7. Exit Strategy
-
-### 7.1 Profit Targets
-
-| Target Level | Price Target | Action |
-|-------------|-------------|--------|
-| 1R (initial risk) | Entry + stop-loss distance | Sell 50%, move stop to breakeven |
-| 2R | Entry + 2× stop-loss distance | Sell 25%, trail stop |
-| 3R+ | Trail with 1% trailing stop | Let winner run |
-| Time stop | 3 days with no move >1% | Exit entirely |
-
-### 7.2 Stop-Loss Rules
-
-| Stop Type | Trigger | Action |
-|-----------|---------|--------|
-| Initial stop | 2% below entry | Full exit, market order |
-| Trailing stop | 1% below highest price since entry | Sell remaining position |
-| Time stop | 3 days, price < +1% from entry | Full exit |
-| Gap-down stop | Opens >3% below previous close | Sell at market open |
-| News stop | Major negative catalyst | Exit immediately |
-
-### 7.3 Daily Profit Target
-
-| Milestone | Action |
-|-----------|--------|
-| ¥80 profit reached | Close all positions for the day ✅ |
-| ¥120 profit | Consider closing — great day |
-| ¥150+ profit | Definitely close — don't give it back |
-
-> **Key Principle**: Once daily target is hit, STOP. Greed is the enemy of consistency.
+- **分批建仓**：信号出现时入场 50%，回调确认加仓 25%，突破加最后 25%
+- **分批退出**：1R 利润卖出 50%，止损移至盈亏平衡，2R 卖出 25%，移动止损持有最后 25%
 
 ---
 
-## 8. Daily Routine
+## 7. 离场策略
 
-### 8.1 Pre-Market (8:00 – 9:25 AM)
+### 7.1 止盈目标
 
-| Time | Activity | Duration |
-|------|----------|----------|
-| 8:00 | Check overnight US/Europe markets, futures | 10 min |
-| 8:10 | Review watchlist, check for pre-market news | 10 min |
-| 8:20 | Identify 2–3 top candidates, set alerts | 10 min |
-| 8:30 | Calculate position sizes, set entry/exit prices | 10 min |
-| 8:50 | Review trading rules & risk limits | 5 min |
-| 9:00 | Watch pre-market auction (集合竞价) | 25 min |
+| 目标级别 | 价格目标 | 操作 |
+|---------|---------|------|
+| 1R（初始风险） | 入场价 + 止损距离 | 卖出 50%，止损移至盈亏平衡 |
+| 2R | 入场价 + 2 × 止损距离 | 卖出 25%，移动止损 |
+| 3R+ | 以 1% 移动止损跟踪 | 让利润奔跑 |
+| 时间止损 | 3 天内波动 < 1% | 全部清仓 |
 
-### 8.2 Morning Session (9:30 – 11:30 AM)
+### 7.2 止损规则
 
-| Time | Activity |
-|------|----------|
-| 9:30–9:45 | **Observe only** — let initial volatility settle |
-| 9:45–10:30 | Primary trading window — execute planned entries |
-| 10:30–11:00 | Monitor positions, adjust stops |
-| 11:00–11:30 | Light monitoring, no new entries unless exceptional setup |
+| 止损类型 | 触发条件 | 操作 |
+|---------|---------|------|
+| 初始止损 | 入场价下方 2% | 全部离场，市价单 |
+| 移动止损 | 入场后最高价下方 1% | 卖出剩余仓位 |
+| 时间止损 | 3 天，价格 < 入场价 + 1% | 全部离场 |
+| 跳空止损 | 开盘低于前收盘价 3% 以上 | 开盘市价卖出 |
+| 新闻止损 | 重大负面催化剂 | 立即离场 |
 
-### 8.3 Lunch Break (11:30 – 13:00 PM)
+### 7.3 日内盈利目标
 
-- Review morning trades
-- Update P&L tracker
-- Assess if daily target hit → if yes, done for the day
-- Prepare afternoon plan if needed
+| 里程碑 | 操作 |
+|-------|------|
+| 达到 ¥80 利润 | 当日平掉所有仓位 ✅ |
+| ¥120 利润 | 考虑收盘 —— 状态极佳 |
+| ¥150+ 利润 | 必须收盘 —— 不要回吐 |
 
-### 8.4 Afternoon Session (13:00 – 15:00 PM)
-
-| Time | Activity |
-|------|----------|
-| 13:00–14:00 | Secondary entry window (if morning target not hit) |
-| 14:00–14:30 | Monitor and manage open positions |
-| 14:30–14:50 | Final decisions: hold overnight or close |
-| 14:50–15:00 | Close all marginal positions, record trades |
-
-### 8.5 Post-Market (15:00 – 15:30 PM)
-
-| Activity | Duration |
-|----------|----------|
-| Record all trades in P&L tracker | 5 min |
-| Calculate daily P&L | 3 min |
-| Screenshot key charts for journal | 5 min |
-| Note lessons & emotions | 5 min |
-| Quick review of next-day watchlist | 5 min |
-| **Total** | **~25 min** |
-
-### 8.6 Weekly Review (Sunday, 30 min)
-
-1. Weekly P&L summary vs. target (5 × ¥80 = ¥400/week)
-2. Win rate & average win/loss ratio
-3. Review all trade screenshots — what worked, what didn't
-4. Update watchlist scores for next week
-5. Adjust strategy parameters if needed
-6. Check if risk limits were respected
+> **核心原则**：达到日内目标后，停止交易。贪婪是稳定性的敌人。
 
 ---
 
-## 9. Daily P&L Tracking Template
+## 8. 每日流程
 
-### 9.1 Trade Log
+### 8.1 盘前（8:00 – 9:25）
+
+| 时间 | 活动 | 时长 |
+|-----|------|------|
+| 8:00 | 查看隔夜美股/欧股、期货 | 10 分钟 |
+| 8:10 | 回顾观察名单，查看盘前新闻 | 10 分钟 |
+| 8:20 | 确定 2–3 个首选标的，设置提醒 | 10 分钟 |
+| 8:30 | 计算仓位规模，设定入场/离场价格 | 10 分钟 |
+| 8:50 | 复习交易规则与风险限制 | 5 分钟 |
+| 9:00 | 观察集合竞价 | 25 分钟 |
+
+### 8.2 上午时段（9:30 – 11:30）
+
+| 时间 | 活动 |
+|-----|------|
+| 9:30–9:45 | **仅观察** —— 让开盘波动平息 |
+| 9:45–10:30 | 主要交易窗口 —— 执行计划入场 |
+| 10:30–11:00 | 监控持仓，调整止损 |
+| 11:00–11:30 | 轻度监控，除非绝佳形态否则不开新仓 |
+
+### 8.3 午休（11:30 – 13:00）
+
+- 复盘上午交易
+- 更新盈亏追踪表
+- 评估是否达成日内目标 → 若是，今日结束
+- 必要时准备下午计划
+
+### 8.4 下午时段（13:00 – 15:00）
+
+| 时间 | 活动 |
+|-----|------|
+| 13:00–14:00 | 次要入场窗口（若上午未达目标） |
+| 14:00–14:30 | 监控并管理持仓 |
+| 14:30–14:50 | 最终决策：持有过夜或平仓 |
+| 14:50–15:00 | 平掉所有边缘仓位，记录交易 |
+
+### 8.5 盘后（15:00 – 15:30）
+
+| 活动 | 时长 |
+|-----|------|
+| 将所有交易记入盈亏追踪表 | 5 分钟 |
+| 计算日内盈亏 | 3 分钟 |
+| 截取关键图表用于日志 | 5 分钟 |
+| 记录教训与情绪 | 5 分钟 |
+| 快速回顾次日观察名单 | 5 分钟 |
+| **合计** | **约 25 分钟** |
+
+### 8.6 周度复盘（周日，30 分钟）
+
+1. 周度盈亏汇总 vs. 目标（5 × ¥80 = ¥400/周）
+2. 胜率与平均盈亏比
+3. 复盘所有交易截图 —— 哪些有效，哪些无效
+4. 更新下周观察名单评分
+5. 必要时调整策略参数
+6. 检查是否遵守风险限制
+
+---
+
+## 9. 日内盈亏追踪模板
+
+### 9.1 交易日志
 
 ```markdown
-## Trade Log — [YYYY-MM-DD]
+## 交易日志 — [YYYY-MM-DD]
 
-| # | Stock | Dir | Entry Time | Entry Price | Exit Time | Exit Price | Shares | P&L (¥) | P&L % | Reason | Score |
-|---|-------|-----|-----------:|------------:|----------:|-----------:|-------:|--------:|------:|--------|------:|
-| 1 |       | L/S |            |             |           |            |        |         |       |        |       |
-| 2 |       | L/S |            |             |           |            |        |         |       |        |       |
-| 3 |       | L/S |            |             |           |            |        |         |       |        |       |
+| # | 股票 | 方向 | 入场时间 | 入场价 | 离场时间 | 离场价 | 股数 | 盈亏(¥) | 盈亏% | 理由 | 得分 |
+|---|-----|------|---------:|-------:|---------:|-------:|-----:|--------:|------:|-----|-----:|
+| 1 |     | 多/空 |          |        |          |        |      |         |       |     |      |
+| 2 |     | 多/空 |          |        |          |        |      |         |       |     |      |
+| 3 |     | 多/空 |          |        |          |        |      |         |       |     |      |
 ```
 
-### 9.2 Daily Summary
+### 9.2 日度汇总
 
 ```markdown
-## Daily Summary — [YYYY-MM-DD]
+## 日度汇总 — [YYYY-MM-DD]
 
-### Numbers
-- **Starting Capital**: ¥
-- **Ending Capital**: ¥
-- **Gross Profit**: ¥
-- **Gross Loss**: ¥
-- **Net P&L**: ¥
-- **Net P&L %**: %
-- **Trades Taken**: 
-- **Win/Loss**: W / L
-- **Win Rate**: %
-- **Avg Win**: ¥
-- **Avg Loss**: ¥
-- **Profit Factor**: 
-- **Max Intraday Drawdown**: ¥
+### 数据
+- **期初资金**: ¥
+- **期末资金**: ¥
+- **总盈利**: ¥
+- **总亏损**: ¥
+- **净盈亏**: ¥
+- **净盈亏%**: %
+- **交易笔数**: 
+- **胜/负**: 胜 / 负
+- **胜率**: %
+- **平均盈利**: ¥
+- **平均亏损**: ¥
+- **盈利因子**: 
+- **日内最大回撤**: ¥
 
-### vs. Target
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-| Daily P&L | ¥80 | ¥ | ✅/❌ |
-| Max Loss | ¥200 | ¥ | ✅/❌ |
-| Stop-loss respected | 100% | % | ✅/❌ |
-| Daily target hit & stopped | Yes | | ✅/❌ |
+### vs. 目标
+| 指标 | 目标 | 实际 | 状态 |
+|-----|------|------|------|
+| 日内盈亏 | ¥80 | ¥ | ✅/❌ |
+| 最大亏损 | ¥200 | ¥ | ✅/❌ |
+| 遵守止损 | 100% | % | ✅/❌ |
+| 达成日内目标并停止 | 是 | | ✅/❌ |
 
-### Emotions & Notes
-- Emotional state: (1-5, 1=calm, 5=FOMO/panic)
-- Best decision today:
-- Worst decision today:
-- Lesson for tomorrow:
+### 情绪与笔记
+- 情绪状态：（1-5，1=平静，5=FOMO/恐慌）
+- 今日最佳决策：
+- 今日最差决策：
+- 明日教训：
 ```
 
-### 9.3 Weekly Summary Template
+### 9.3 周度汇总模板
 
 ```markdown
-## Weekly Summary — Week of [YYYY-MM-DD]
+## 周度汇总 — [YYYY-MM-DD] 周
 
-### Performance
-| Day | P&L (¥) | Trades | Win Rate | Notes |
-|-----|--------:|-------:|---------:|-------|
-| Mon |         |        |          |       |
-| Tue |         |        |          |       |
-| Wed |         |        |          |       |
-| Thu |         |        |          |       |
-| Fri |         |        |          |       |
-| **Total** | **¥** | ** | **%** | |
+### 业绩表现
+| 日期 | 盈亏(¥) | 交易笔数 | 胜率 | 备注 |
+|-----|--------:|---------:|-----:|------|
+| 周一 |         |          |      |      |
+| 周二 |         |          |      |      |
+| 周三 |         |          |      |      |
+| 周四 |         |          |      |      |
+| 周五 |         |          |      |      |
+| **合计** | **¥** | ** | **%** | |
 
-### Weekly Stats
-- **Weekly Target**: ¥400 (5 × ¥80)
-- **Weekly Actual**: ¥
-- **Target Achievement**: %
-- **Best Day**: 
-- **Worst Day**: 
-- **Consecutive Losing Days**: 
-- **Rules Broken**: 
+### 周度统计
+- **周度目标**: ¥400（5 × ¥80）
+- **周度实际**: ¥
+- **目标达成率**: %
+- **最佳交易日**: 
+- **最差交易日**: 
+- **连续亏损天数**: 
+- **违反规则次数**: 
 
-### Reflections
-1. What worked this week:
-2. What needs improvement:
-3. Strategy adjustments for next week:
+### 反思
+1. 本周哪些做法有效：
+2. 需要改进之处：
+3. 下周策略调整：
 ```
 
-### 9.4 Monthly Dashboard
+### 9.4 月度仪表板
 
 ```markdown
-## Monthly Dashboard — [YYYY-MM]
+## 月度仪表板 — [YYYY-MM]
 
-| Week | P&L (¥) | Trades | Win Rate | Profit Factor |
-|------|--------:|-------:|---------:|--------------:|
+| 周 | 盈亏(¥) | 交易笔数 | 胜率 | 盈利因子 |
+|---|--------:|---------:|-----:|---------:|
 | W1 | | | | |
 | W2 | | | | |
 | W3 | | | | |
 | W4 | | | | |
-| **Month** | **¥** | ** | **%** | ** |
+| **月度** | **¥** | ** | **%** | ** |
 
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-| Monthly P&L | ¥1,600–2,000 | ¥ | |
-| Monthly win rate | >55% | % | |
-| Max drawdown | <5% | % | |
-| Days hitting ¥80 target | 20/22 | | |
-| Token cost coverage | 100% | % | |
+| 指标 | 目标 | 实际 | 状态 |
+|-----|------|------|------|
+| 月度盈亏 | ¥1,600–2,000 | ¥ | |
+| 月度胜率 | >55% | % | |
+| 最大回撤 | <5% | % | |
+| 达成 ¥80 目标天数 | 20/22 | | |
+| Token 成本覆盖 | 100% | % | |
 ```
 
 ---
 
-## 10. Strategy Playbook — 3 Core Setups
+## 10. 策略手册 —— 3 个核心形态
 
-### Setup 1: Morning Breakout (9:45–10:15)
+### 形态 1：早盘突破（9:45–10:15）
 
-- **Condition**: Stock gaps up 1-3%, volume > 2× average in first 15 min
-- **Entry**: Buy on pullback to VWAP or MA5 after initial surge
-- **Stop**: Below opening price or -2%, whichever is tighter
-- **Target**: 1R–2R
-- **Score requirement**: 75+
+- **条件**：股价高开 1-3%，前 15 分钟成交量 > 2 倍均值
+- **入场**：初始拉升后回踩 VWAP 或 MA5 时买入
+- **止损**：开盘价下方或 -2%，取更紧者
+- **目标**：1R–2R
+- **得分要求**：75+
 
-### Setup 2: Sector Rotation Play (10:00–11:00)
+### 形态 2：板块轮动交易（10:00–11:00）
 
-- **Condition**: Sector gets sudden money inflow, top stock in sector breaks out
-- **Entry**: Buy the sector leader on first pullback to MA5
-- **Stop**: Below MA20 or -2%
-- **Target**: 2R–3R (sector plays have legs)
-- **Score requirement**: 80+
+- **条件**：板块突然涌入资金，板块内龙头股突破
+- **入场**：首次回踩 MA5 时买入板块龙头
+- **止损**：MA20 下方或 -2%
+- **目标**：2R–3R（板块行情有持续性）
+- **得分要求**：80+
 
-### Setup 3: Afternoon Reversal (13:30–14:30)
+### 形态 3：午后反转（13:30–14:30）
 
-- **Condition**: Stock in uptrend pulls back to MA20 support, RSI < 35, volume declining on pullback
-- **Entry**: Buy when price bounces off MA20 with increasing volume
-- **Stop**: Below MA20 by 1% or -2%
-- **Target**: 1R–2R (quick trade, don't overstay)
-- **Score requirement**: 70+
-
----
-
-## 11. Psychology & Discipline Rules
-
-### 11.1 The 5 Commandments
-
-1. **Thou shalt not chase** — If you missed the entry, wait for the next one
-2. **Thou shalt not average down** — Stop-loss means stop-loss, not buy more
-3. **Thou shalt not revenge trade** — After a loss, take a break, not another trade
-4. **Thou shalt respect the daily target** — Hit ¥80? You're done. Walk away.
-5. **Thou shalt journal every trade** — No exceptions, no "I'll remember it"
-
-### 11.2 Emotional State Check
-
-Before each trade, rate your emotional state:
-
-| State | Rating | Action |
-|-------|:------:|--------|
-| Calm, focused | 1–2 | ✅ Trade normally |
-| Slightly anxious/eager | 3 | ⚠️ Reduce size by 25% |
-| FOMO / frustrated / angry | 4–5 | 🛑 Do NOT trade |
-
-### 11.3 Break Schedule
-
-- After 2 consecutive losses: 15-minute break
-- After hitting daily loss limit: Stop for the day
-- After hitting weekly loss limit: Full review, reduced size next week
-- Feeling tilted (rating 4+): Walk away for at least 30 minutes
+- **条件**：上升趋势中的股票回踩 MA20 支撑，RSI < 35，回调时成交量萎缩
+- **入场**：价格在 MA20 处反弹且成交量放大时买入
+- **止损**：MA20 下方 1% 或 -2%
+- **目标**：1R–2R（快进快出，不要恋战）
+- **得分要求**：70+
 
 ---
 
-## 12. Tools & Resources
+## 11. 心理与纪律规则
 
-| Purpose | Tool | Cost |
-|---------|------|------|
-| Charting & TA | 同花顺 / 东方财富 | Free |
-| Real-time quotes | 东方财富 / 雪球 | Free |
-| News & catalysts | 财联社 / 证券时报 | Free |
-| Sector money flow | 同花顺板块资金流向 | Free |
-| P&L tracking | This template (Markdown) | Free |
-| Trade journal | Markdown files in this repo | Free |
+### 11.1 五大戒律
+
+1. **不可追高** —— 错过入场点，就等下一个
+2. **不可补仓摊低成本** —— 止损就是止损，不是加仓理由
+3. **不可报复性交易** —— 亏损后要休息，不是再交易
+4. **不可违背日内目标** —— 达到 ¥80？结束交易。离场。
+5. **不可遗漏交易日志** —— 无例外，不要"我会记住"
+
+### 11.2 情绪状态检查
+
+每笔交易前，评估你的情绪状态：
+
+| 状态 | 评分 | 行动 |
+|-----|:----:|------|
+| 平静、专注 | 1–2 | ✅ 正常交易 |
+| 略微焦虑/急切 | 3 | ⚠️ 仓位减少 25% |
+| FOMO / 挫败 / 愤怒 | 4–5 | 🛑 不要交易 |
+
+### 11.3 休息计划
+
+- 连续 2 笔亏损后：休息 15 分钟
+- 触及日内亏损上限后：当日停止交易
+- 触及周度亏损上限后：全面复盘，下周减仓
+- 情绪失控（评分 4+）：至少离开 30 分钟
 
 ---
 
-## 13. Review & Adjustment Schedule
+## 12. 工具与资源
 
-| Frequency | Activity |
-|-----------|----------|
-| Daily | P&L tracking, trade journal, emotion check |
-| Weekly | Strategy review, watchlist update, parameter tuning |
-| Monthly | Full performance review, capital adjustment, rule updates |
-| Quarterly | Strategy overhaul if needed, compare vs. buy-and-hold benchmark |
+| 用途 | 工具 | 成本 |
+|-----|------|------|
+| 图表与技术分析 | 同花顺 / 东方财富 | 免费 |
+| 实时行情 | 东方财富 / 雪球 | 免费 |
+| 新闻与催化剂 | 财联社 / 证券时报 | 免费 |
+| 板块资金流向 | 同花顺板块资金流向 | 免费 |
+| 盈亏追踪 | 本模板（Markdown） | 免费 |
+| 交易日志 | 本仓库中的 Markdown 文件 | 免费 |
 
 ---
 
-## Appendix A: Quick Reference Card
+## 13. 复盘与调整计划
+
+| 频率 | 活动 |
+|-----|------|
+| 每日 | 盈亏追踪、交易日志、情绪检查 |
+| 每周 | 策略复盘、观察名单更新、参数调优 |
+| 每月 | 全面业绩回顾、资金调整、规则更新 |
+| 每季 | 必要时策略重构，与买入持有基准对比 |
+
+---
+
+## 附录 A：快速参考卡
 
 ```
 ╔══════════════════════════════════════════════╗
-║          DAILY TRADING QUICK REF             ║
+║          日内交易快速参考                     ║
 ╠══════════════════════════════════════════════╣
-║ Capital:     ¥20,000                         ║
-║ Target:      ¥80/day (0.4%)                  ║
-║ Max Loss:    ¥200/day                         ║
-║ Stop-Loss:   2% per trade                    ║
-║ Max Position: 30% of capital                 ║
-║ Score Entry: ≥70/100                         ║
+║ 资金：       ¥20,000                         ║
+║ 目标：       ¥80/天 (0.4%)                   ║
+║ 最大亏损：   ¥200/天                         ║
+║ 止损：       每笔交易 2%                     ║
+║ 最大仓位：   资金的 30%                      ║
+║ 入场得分：   ≥70/100                         ║
 ║                                              ║
-║ PRE-MARKET:  Check news, set alerts          ║
-║ MORNING:     Trade 9:45–10:30                ║
-║ AFTERNOON:   Manage/trade 13:00–14:30        ║
-║ CLOSE:       Record, journal, review         ║
+║ 盘前：       查看新闻，设置提醒               ║
+║ 上午：       交易时段 9:45–10:30             ║
+║ 下午：       管理/交易 13:00–14:30           ║
+║ 收盘：       记录、日志、复盘                 ║
 ║                                              ║
-║ Hit ¥80? → STOP TRADING ✅                   ║
-║ Lost ¥200? → STOP TRADING 🛑                 ║
+║ 达到 ¥80？ → 停止交易 ✅                     ║
+║ 亏损 ¥200？ → 停止交易 🛑                    ║
 ╚══════════════════════════════════════════════╝
 ```
 
 ---
 
-## Appendix B: Risk Disclaimer
+## 附录 B：风险提示
 
-> ⚠️ **This document is a personal planning tool, not financial advice.** Stock trading involves substantial risk of loss. Past performance does not guarantee future results. The target returns described herein are goals, not promises. Never trade with money you cannot afford to lose. Always conduct your own research and consider consulting a licensed financial advisor.
+> ⚠️ **本文档为个人规划工具，不构成投资建议。** 股票交易存在重大亏损风险。过往业绩不保证未来结果。文中所描述的目标收益仅为目标，并非承诺。切勿使用无法承受损失的资金进行交易。请务必自行研究并考虑咨询持牌理财顾问。
 
 ---
 
-*Last updated: 2025-05-01 | Version 1.0*
+*最后更新：2025-05-01 | 版本 1.0*
